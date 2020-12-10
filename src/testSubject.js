@@ -1,5 +1,5 @@
 import {BehaviorSubject} from 'rxjs'
 
-const testSubject = new BehaviorSubject(2)
+const testSubject = new BehaviorSubject("hello rx hooks")
 
 export default testSubject;

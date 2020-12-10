@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 
 const Consumer2 = () => {
 
-    const subjectData = useRxJsObservable(testSubject.pipe(map(val => val*2)))
+    const subjectData = useRxJsObservable(testSubject.pipe(map(val => val.repeat(2))))
     return (
         <div>
             {subjectData}
